@@ -1,3 +1,8 @@
+:root {
+  --primary-color: rgb(255, 245, 247);
+  --secondary-color: rgb(237, 178, 190);
+}
+
 body {
   padding-bottom: 40px;
 }
@@ -16,8 +21,9 @@ a {
   padding-top: 50px;
 }
 .hero {
-  background-color: rgb(255, 245, 247);
+  background-color: var(--primary-color);
   padding: 120px 20px;
+  max-width: 100%;
 }
 .sub-title {
   text-align: center;
@@ -31,15 +37,15 @@ a {
   font-size: 20px;
 }
 .project-button:hover {
-  background-color: rgb(237, 178, 190);
+  background-color: var(--secondary-color);
   color: white;
 }
 .project-button {
   padding: 10px 25px;
   border: 2px solid;
   background-color: white;
-  color: rgb(237, 178, 190);
-  border-color: rgb(237, 178, 190);
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
 }
 .main-button {
   display: block;
@@ -49,10 +55,10 @@ a {
   max-width: 500px;
   border-radius: 5px;
   background-color: black;
-  color: rgb(255, 245, 247);
+  color: var(--primary-color);
   border: none;
 }
-@media (max-width: 587px) {
+@media (max-width: 570px) {
   img {
     display: none;
   }
@@ -68,6 +74,10 @@ a {
     padding: 120px 5px;
   }
   .name {
-    font-size: 60px;
+    font-size: 80px;
+  }
+  .sub-title {
+    font-size: 25px;
+    padding-bottom: 30px;
   }
 }
