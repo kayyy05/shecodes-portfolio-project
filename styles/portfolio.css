@@ -20,6 +20,7 @@ a {
   padding-bottom: 15px;
   padding-top: 50px;
 }
+
 .hero {
   background-color: var(--primary-color);
   padding: 120px 20px;
@@ -48,18 +49,51 @@ a {
   border-color: var(--secondary-color);
 }
 .main-button {
+  max-width: 500px;
+  border-radius: 5px;
+}
+.button-one {
+  padding: 20px 50px;
   display: block;
   margin: 0 auto;
   font-size: 20px;
-  padding: 20px 50px;
-  max-width: 500px;
-  border-radius: 5px;
   background-color: black;
   color: var(--primary-color);
   border: none;
 }
+.button-two:hover {
+  background-color: white;
+  color: var(--secondary-color);
+}
+.button-two {
+  padding: 12px 40px;
+  font-size: 18px;
+  background-color: var(--secondary-color);
+  color: white;
+  border-color: var(--secondary-color);
+  border: 2px solid;
+}
+
+.about {
+  padding-top: 80px;
+}
+.about-title {
+  padding-top: 120px;
+  font-size: 58px;
+  padding-bottom: 15px;
+}
+.about-sub-title {
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.about-content {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
 @media (max-width: 570px) {
-  img {
+  .home {
     display: none;
   }
   .project-button {
