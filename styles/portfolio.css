@@ -115,3 +115,11 @@ a {
     padding-bottom: 30px;
   }
 }
+@media (max-width: 973px) {
+  .about-title {
+    padding-top: 20px;
+  }
+  .about-image {
+    padding-top: 40px;
+  }
+}
