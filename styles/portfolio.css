@@ -1,3 +1,6 @@
+/*font-family: 'EB Garamond', serif;
+font-family: 'Poppins', sans-serif;*/
+
 :root {
   --primary-color: rgb(255, 245, 247);
   --secondary-color: rgb(237, 178, 190);
@@ -38,6 +41,8 @@ nav li {
 nav ul {
   padding: 7px 0 0 0;
   margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
 }
 
 nav a:hover {
@@ -46,10 +51,48 @@ nav a:hover {
 nav li.active a {
   color: var(--secondary-color);
 }
-
-.navigation-link {
+footer {
+  padding-top: 100px;
+}
+.navigation-link,
+.footer-link {
   text-decoration: none;
   color: black;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+}
+
+.footer-link:hover {
+  color: var(--secondary-color);
+}
+
+footer .contact-box {
+  background-color: var(--primary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0px;
+}
+.footer-title {
+  font-size: 35px;
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+}
+
+.footer-icon {
+  text-decoration: none;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+.footer-icon:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 .logo {
@@ -64,6 +107,8 @@ nav li.active a {
   font-size: 150px;
   padding-bottom: 15px;
   padding-top: 50px;
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
 }
 
 .hero {
@@ -75,12 +120,16 @@ nav li.active a {
   text-align: center;
   font-size: 30px;
   padding-bottom: 50px;
+  font-family: "EB Garamond", serif;
 }
 .project-title {
   font-size: 45px;
+  font-family: "EB Garamond", serif;
 }
 .project-body {
   font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
 }
 .project-button:hover {
   background-color: var(--secondary-color);
@@ -92,6 +141,8 @@ nav li.active a {
   background-color: white;
   color: var(--secondary-color);
   border-color: var(--secondary-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
 }
 .main-button {
   max-width: 500px;
@@ -105,6 +156,8 @@ nav li.active a {
   background-color: black;
   color: var(--primary-color);
   border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
 }
 .button-two:hover {
   background-color: white;
@@ -117,6 +170,8 @@ nav li.active a {
   color: white;
   border-color: var(--secondary-color);
   border: 2px solid;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
 }
 
 .content {
@@ -126,29 +181,37 @@ nav li.active a {
   padding-top: 120px;
   font-size: 58px;
   padding-bottom: 15px;
+  font-family: "EB Garamond", serif;
 }
 .about-sub-title {
   font-size: 22px;
   font-weight: bold;
   padding-bottom: 15px;
+  font-family: "EB Garamond", serif;
 }
 .about-content {
   font-size: 18px;
   padding-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
 }
 .contact-heading {
   font-size: 65px;
   padding-bottom: 40px;
-  padding-top: 160px;
+  padding-top: 100px;
+  font-family: "EB Garamond", serif;
 }
 .contact-link {
   font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
 }
 .contact-body {
   padding-left: 100px;
 }
 .sub-head {
   font-size: 30px;
+  font-family: "EB Garamond", serif;
 }
 .work {
   padding-bottom: 10px;
@@ -156,9 +219,10 @@ nav li.active a {
 .info-title {
   color: gray;
   font-size: 16px;
+  font-family: "EB Garamond", serif;
 }
 
-@media (max-width: 570px) {
+@media (max-width: 587px) {
   .home {
     display: none;
   }
@@ -182,6 +246,16 @@ nav li.active a {
   }
   nav a {
     font-size: 12px;
+  }
+  footer .contact-box {
+    padding: 30px;
+  }
+  .footer-title {
+    font-size: 20px;
+  }
+  .button-two {
+    padding: 12px 25px;
+    font-size: 15px;
   }
 }
 @media (max-width: 973px) {
