@@ -18,7 +18,10 @@ font-family: 'Poppins', sans-serif;*/
 .bold {
   font-weight: bold;
 }
-
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+}
 body {
   padding-bottom: 40px;
 }
