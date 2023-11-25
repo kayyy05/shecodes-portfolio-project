@@ -6,6 +6,15 @@
 .center {
   text-align: center;
 }
+.small-padding-top {
+  padding-top: 20px;
+}
+.small-padding-bottom {
+  padding-bottom: 20px;
+}
+.bold {
+  font-weight: bold;
+}
 
 body {
   padding-bottom: 40px;
@@ -97,9 +106,17 @@ a {
 }
 .contact-heading {
   font-size: 65px;
+  padding-bottom: 40px;
+  padding-top: 160px;
+}
+.contact-link {
+  font-size: 18px;
+}
+.contact-body {
+  padding-left: 100px;
 }
 .sub-head {
-  font-size: 25px;
+  font-size: 30px;
 }
 .work {
   padding-bottom: 10px;
@@ -142,5 +159,9 @@ a {
   }
   .project {
     padding-bottom: 25px;
+  }
+  .contact-body {
+    text-align: center;
+    padding-left: 0px;
   }
 }
