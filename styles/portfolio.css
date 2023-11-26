@@ -260,6 +260,9 @@ footer .contact-box p {
     padding: 12px 25px;
     font-size: 15px;
   }
+  .navigation-link {
+    font-size: 14px;
+  }
 }
 @media (max-width: 973px) {
   .about-title {
